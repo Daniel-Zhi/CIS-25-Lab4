@@ -35,7 +35,7 @@ int main(){
 }
 
 void getScores(double* arr, int size){
-    int scores;
+    double scores;
     for(int i = 0 ; i < size ; i++){
         cout << "Insert score " << i + 1 << ": ";
         cin >> scores;
@@ -59,7 +59,7 @@ void sortScores(double* arr, int size){
     }
 }
 double calculateAverage(const double* arr, int size){
-    int total = 0;
+    double total = 0;
     for(int i = 0; i < size; i++){
         total += arr[i];
     }
